@@ -239,6 +239,7 @@
     ${f()}
     <main class="content" aria-live="polite">${C()}</main>
     <footer class="site-footer">
-      Elaborado por Noam López Villlanes, como parte de su postulación Consultor/a/x en monitoreo, evaluación y apoyo a la implementación del proyecto CRECE, 19 de junio de 2026.
+      <span>Elaborado por Noam López Villlanes, como parte de su postulación Consultor/a/x en monitoreo, evaluación y apoyo a la implementación del proyecto CRECE.</span>
+      <span>19 de junio de 2026.</span>
     </footer>
   `,document.querySelectorAll(`[data-tab]`).forEach(e=>{e.addEventListener(`click`,()=>{i.tab=e.dataset.tab,w()})}),document.querySelector(`#profile-select`)?.addEventListener(`change`,e=>{i.profileKey=e.target.value,w()}),document.querySelector(`#cross-select`)?.addEventListener(`change`,e=>{i.crossKey=e.target.value,w()})}w();
